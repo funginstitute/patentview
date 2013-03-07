@@ -6,6 +6,7 @@
     = stylesheet_link_tag "application", :media => "all"
     = csrf_meta_tags
     = favicon_link_tag '/funginstitute.ico'
+    = render 'shared/google_analytics'
   %body{ template_id, template_class }
     = render 'layouts/header'
     .container
